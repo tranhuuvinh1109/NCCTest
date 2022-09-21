@@ -1,0 +1,64 @@
+.logo {
+    width: 310px;
+    padding-top: 20px;
+}
+
+.description {
+    margin-top: 30px;
+    text-align: center;
+    padding: 38px 269px;
+    background-color: #EFEFEF;
+}
+
+.title {
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 18px;
+}
+
+.description_content {
+    font-size: 16px;
+}
+
+.list-item {
+    margin-top: 40px;
+    display: flex;
+    gap: 50px;
+}
+
+.item-logo {
+    float: left;
+    margin-right: 16px;
+}
+
+.item-title {
+    font-size: 24px;
+    padding-bottom: 18px;
+}
+
+.item-content {
+    line-height: 18.75px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer {
+    width: 100%;
+    border-top: 1px solid #DEDEDE;
+}
+
+@media screen and (max-width: 1024px) {
+    .btn {
+        font-size: 32px;
+        padding: 8px 14px;
+        background-color: transparent;
+    }
+
+    .description {
+        padding: 38px 18px;
+    }
+
+    .list-item {
+        flex-direction: column;
+    }
+}
